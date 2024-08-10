@@ -65,12 +65,12 @@ api.createItem({
 When creating an instance of `AscoryAPI`, you need to pass a configuration object with the following fields:
 
 ```javascript
-const config = {
+const api = new AscoryAPI({
     shopId: 1,
     key1: 'c0a9cc6d8d4243c4a644f8e57d085438',
     key2: '56d4f8ee1ee480707ee9f3210da5aca2',
     ip: '1.1.1.1'
-};
+});
 ```
 
 ### Methods
